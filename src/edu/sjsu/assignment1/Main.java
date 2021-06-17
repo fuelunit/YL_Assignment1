@@ -12,6 +12,7 @@ public class Main {
         MyTime.printTimeDifference("1635", "0250");
         MyTime.printTimeDifference("1820", "1810");
         MyTime.printTimeDifference("1810", "1820");
+        MyTime.printTimeDifference("1810", "1810");
         Card card1 = new Card("10S");
         String fullDescription = card1.getDescription();
         System.out.println(fullDescription);
