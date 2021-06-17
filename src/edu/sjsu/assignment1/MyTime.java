@@ -8,7 +8,7 @@ package edu.sjsu.assignment1;
 
 public class MyTime {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         printTimeDifference("0120", "1510");
         printTimeDifference("1635", "0250");
         Card card1 = new Card("10S");
@@ -20,7 +20,7 @@ public class MyTime {
         Card card3 = new Card("11H");
         fullDescription = card3.getDescription();
         System.out.println(fullDescription);
-    }
+    }*/
 
     /**
      * printTimeDifference method
