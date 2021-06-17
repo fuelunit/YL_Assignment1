@@ -27,7 +27,7 @@ public class Matrix {
         return result;
     }
 
-    public Matrix getMatrix(){
-        return this;
+    public int[][] getMatrix(){
+        return null;
     }
 }
