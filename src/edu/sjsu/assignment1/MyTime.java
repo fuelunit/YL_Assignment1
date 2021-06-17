@@ -43,7 +43,8 @@ public class MyTime {
             return;
         }
         // Making the secondHours always bigger than firstHours
-        if (firstHours >= secondHours) {
+        if (firstHours > secondHours || (firstHours == secondHours
+                && firstMinutes >= secondMinutes)) {
             secondHours += 24;
         }
         // Making the secondMinutes always bigger than firstMinutes
