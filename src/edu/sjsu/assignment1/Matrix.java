@@ -26,4 +26,8 @@ public class Matrix {
         Matrix result = new Matrix(null);
         return result;
     }
+
+    public Matrix getMatrix(){
+        return this;
+    }
 }

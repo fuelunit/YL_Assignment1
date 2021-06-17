@@ -57,6 +57,4 @@ public class MyTime {
         int totalMinutes = secondMinutes - firstMinutes;
         System.out.println(totalHours + " hour(s) " + totalMinutes + " minute(s)");
     }
-
-
 }
