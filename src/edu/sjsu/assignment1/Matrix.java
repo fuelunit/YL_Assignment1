@@ -43,13 +43,13 @@ public class Matrix {
         // Populating tempResult
         for (int i = 0; i < resultRows; i++) {
             for (int j = 0; j < resultColumns; j++) {
-                // Getting the product for tempResult[i][j]
-                int product = 0;
+                // Getting the sum for tempResult[i][j]
+                int sum = 0;
                 for (int s = 0; s < this.matrix[i].length; s++) {
-                    product += this.matrix[i][s]
+                    sum += this.matrix[i][s]
                             * otherMatrix.getMatrix()[s][j];
                 }
-                tempResult[i][j] = product;
+                tempResult[i][j] = sum;
             }
         }
         return new Matrix(tempResult);
